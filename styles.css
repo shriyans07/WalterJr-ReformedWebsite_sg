@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway&family=Yeon+Sung&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #EFEFEF;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: lighter;
+    border-bottom:rgba(255, 255, 255, 0.3);
+}
+
+.nav li{
+    display: inline;
+    padding: 0 5%;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color: #EFEFEF;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    text-decoration: underline;
+    color: #F62817;
+}
+
+.header-title{
+    font-family: Yeon Sung;
+    text-align: center;
+    font-size: 8em;
+    color: #EFEFEF;
+}
+
+.header-title:hover{
+    color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.disclaimer{
+    text-align: center;
+    font-size: 1em;
+    color: #EFEFEF;
+}
+
+.disclaimer:hover{
+    color: #F62817;
+    font-size: 2em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header{
+    background-image: url("images/Banner.jpg");
+    background-position: top;
+    opacity: 0.5;
+    padding: 75px;
+    background-size: 1500px;
+
+}
+
+.section-header{
+    font-family: Nunito;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.big-block{
+    max-width: 1000px;
+    padding: 50px 1.5em 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.little-block{
+    margin-bottom: 100px;
+}
+
+.p{
+    font-size: 1.5em;
+}
+
+section{
+    background-color: #191919;
+}
+
+.section-header:hover{
+    color: #c2191f;
+    cursor: pointer;
+}
+.img{
+    opacity: 0.5;
+}
+
+.img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    font-family: Nunito;
+    font-size: 3em;
+    background-color: #c2191f;
+    margin-bottom: 100px;
+    border-radius: 10%;
+    width: 500px;
+    height: 250px;
+}
+
+.btn:hover{
+    background-color: #a11111;
+}
+
+.member{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 5fr 1fr;
+    column-gap: 50px;
+    margin-bottom: 100px;
+}
